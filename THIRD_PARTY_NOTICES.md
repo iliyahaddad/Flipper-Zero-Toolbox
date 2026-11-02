@@ -24,7 +24,6 @@ Flipper Toolbox uses the following third-party components:
 
 | Component | License | Copyright |
 |-----------|---------|-----------|
-| Flipper Toolbox application code | MIT | Flipper Toolbox Team (2026) |
 | Flipper Zero Firmware APIs | MIT | Flipper Devices |
 | uFBT Build Tool | MIT | Flipper Devices |
 | Standard C Library | GCC RLE | Free Software Foundation |
