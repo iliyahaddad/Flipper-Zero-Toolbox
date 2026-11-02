@@ -12,7 +12,7 @@ Thank you for considering contributing to Flipper Toolbox! This guide will help 
 
 ### Development Setup
 ```bash
-git clone https://github.com/your-repo/flipper-toolbox.git
+git clone https://github.com/iliyahaddad/flipper-zero-toolbox.git
 cd flipper-toolbox
 python -m pip install ufbt
 ufbt
