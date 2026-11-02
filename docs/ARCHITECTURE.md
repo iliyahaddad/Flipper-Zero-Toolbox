@@ -7,29 +7,29 @@ Flipper Toolbox is a modular Flipper Zero application (FAP) built using the offi
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Flipper Toolbox App                        │
+│                    Flipper Toolbox App                      │
 ├─────────────────────────────────────────────────────────────┤
-│  Main Entry (flipper_toolbox.c)                              │
+│  Main Entry (flipper_toolbox.c)                             │
 │  ├─ ViewDispatcher (navigation, view management)            │
 │  ├─ Main Menu (Submenu with 9 items)                        │
 │  ├─ About Screen (Widget)                                   │
 │  └─ NotificationApp (system notifications)                  │
 ├─────────────────────────────────────────────────────────────┤
-│  Modules (loaded on demand)                                  │
-│  ├─ Serial Commander          → modules/serial_commander.*  │
-│  ├─ GPIO Laboratory           → modules/gpio_laboratory.*   │
-│  ├─ Network Calculator        → modules/network_calculator.*│
-│  ├─ Electronics Calculator    → modules/electronics_calculator.*│
-│  ├─ Device Profiles           → modules/device_profiles.*   │
-│  ├─ Session Logs              → modules/session_logs.*      │
-│  ├─ Protocol Learning         → modules/protocol_learning.* │
-│  └─ Settings                  → modules/settings.*          │
+│  Modules (loaded on demand)                                 │
+│ ├─ Serial Commander          → modules/serial_commander.*   │
+│ ├─ GPIO Laboratory           → modules/gpio_laboratory.*    │
+│ ├─ Network Calculator        → modules/network_calculator.* │
+│ ├─ Electronics Calculator → modules/electronics_calculator.*│
+│ ├─ Device Profiles           → modules/device_profiles.*    │
+│ ├─ Session Logs              → modules/session_logs.*       │
+│ ├─ Protocol Learning         → modules/protocol_learning.*  │
+│ └─ Settings                  → modules/settings.*           │
 ├─────────────────────────────────────────────────────────────┤
-│  Shared Infrastructure                                       │
+│  Shared Infrastructure                                      │
 │  ├─ modules/shared.h          → Types, constants, utilities │
 │  └─ modules/*.h               → Public module interfaces    │
 ├─────────────────────────────────────────────────────────────┤
-│  Firmware APIs (Official)                                    │
+│  Firmware APIs (Official)                                   │
 │  ├─ GUI Services              → ViewDispatcher, Widgets     │
 │  ├─ Storage Services          → File, Dir, Common           │
 │  ├─ Furi HAL Serial           → USART, async RX/TX          │
