@@ -15,7 +15,7 @@
 ## Installation Methods
 
 ### Method 1: Pre-built FAP (Recommended)
-1. Download latest `flipper_toolbox.fap` from [Releases](https://github.com/your-repo/flipper-toolbox/releases)
+1. Download latest `flipper_toolbox.fap` from [Releases](https://github.com/iliyahaddad/flipper-zero-toolbox/releases)
 2. Connect Flipper Zero via USB
 3. Run: `ufbt launch /path/to/flipper_toolbox.fap`
    - Or copy to SD card: `/ext/apps/Tools/flipper_toolbox.fap`
@@ -24,7 +24,7 @@
 ### Method 2: Build from Source
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/flipper-toolbox.git
+git clone https://github.com/iliyahaddad/flipper-zero-toolbox.git
 cd flipper-toolbox
 
 # Install build tool
