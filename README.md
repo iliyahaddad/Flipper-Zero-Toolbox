@@ -32,7 +32,7 @@ Built using official Flipper Zero firmware APIs and uFBT build system - no firmw
 ## Installation
 
 ### Pre-built FAP
-Download the latest `flipper_toolbox.fap` from [Releases](https://github.com/your-repo/flipper-toolbox/releases) and install via:
+Download the latest `flipper_toolbox.fap` from [Releases](https://github.com/iliyahaddad/flipper-zero-toolbox/releases) and install via:
 ```bash
 ufbt launch /path/to/flipper_toolbox.fap
 ```
