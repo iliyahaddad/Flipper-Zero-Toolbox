@@ -2,7 +2,7 @@
 
 Modular Electronics, Serial Communication, and Network Toolkit for Flipper Zero
 
-[![Build](https://github.com/iliyahaddad/flipper-zero-toolbox/actions/workflows/build.yml/badge.svg)](https://github.com/your-repo/flipper-toolbox/actions/workflows/build.yml)
+[![Build](https://github.com/iliyahaddad/flipper-zero-toolbox/actions/workflows/build.yml/badge.svg)](https://github.com/iliyahaddad/flipper-zero-toolbox/actions/workflows/build.yml)
 [![Firmware: 1.5.1+](https://img.shields.io/badge/firmware-1.5.1+-green.svg)](https://github.com/flipperdevices/flipperzero-firmware)
 
 ## Overview
