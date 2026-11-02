@@ -1,0 +1,17 @@
+# Flipper Toolbox Application Manifest
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="flipper_toolbox",
+    name="Flipper Toolbox",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="flipper_toolbox_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_version="0.2.0",
+    fap_icon="flipper_toolbox.png",
+    fap_description="Modular Electronics, Serial Communication, and Network Toolkit for Flipper Zero",
+    fap_author="Flipper Toolbox Team",
+    fap_weburl="https://github.com/flipperdevices/flipperzero-firmware",
+    fap_icon_assets="images",
+)

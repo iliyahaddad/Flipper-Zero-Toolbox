@@ -1,0 +1,48 @@
+name: Build Flipper Toolbox
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uFBT
+        run: pip install ufbt
+
+      - name: Build FAP (debug)
+        run: ufbt
+
+      - name: Build FAP (release)
+        run: ufbt release
+
+      - name: Run unit tests
+        run: |
+          cd tests
+          python3 test_network_calculator.py
+          python3 test_electronics_calculator.py
+
+      - name: Upload FAP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: flipper-toolbox-fap
+          path: dist/flipper_toolbox.fap
+          retention-days: 30
+
+      - name: Upload debug ELF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: flipper-toolbox-elf
+          path: dist/debug/flipper_toolbox_d.elf
+          retention-days: 30
