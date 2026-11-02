@@ -43,7 +43,7 @@ ufbt launch /path/to/flipper_toolbox.fap
 python -m pip install ufbt
 
 # Clone and build
-git clone https://github.com/your-repo/flipper-toolbox.git
+git clone https://github.com/iliyahaddad/flipper-zero-toolbox.git
 cd flipper-toolbox
 ufbt release
 # Output: dist/flipper_toolbox.fap
